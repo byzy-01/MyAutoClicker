@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="权限引导" android:textSize="20sp"/>
+    <Button android:id="@+id/btnOverlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 开启悬浮窗" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnAccess" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 开启无障碍"/>
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. 启动控制台"/>
+</LinearLayout>
