@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="极简自动点击器"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityEventTypes="typeViewClicked"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews"
+    android:notificationTimeout="50" />
