@@ -11,11 +11,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Build with Gradle
-        uses: gradle/gradle-build-action@v2
-        with:
-          gradle-version: '8.0'
-          arguments: assembleDebug
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+      - name: Build APK
+        run: gradle assembleDebug
       - name: Release APK
         uses: softprops/action-gh-release@v1
         with:
